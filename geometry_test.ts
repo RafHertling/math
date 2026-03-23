@@ -20,7 +20,7 @@ Deno.test("Das ist TAGESLICHT", () => {
   const actual = circle.area();
 
   //Then
-  assertAlmostEquals(actual, 7.853, 0.01);
+  assertAlmostEquals(actual, 78.539, 0.01);
 });
 
 Deno.test("nagelneuer Benzer", () => {
